@@ -748,9 +748,9 @@
   padding-bottom: 75px;
 
   @media (max-width: $mobile-width) {
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-height: 211px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
@@ -762,6 +762,7 @@
 
   @media (max-width: $mobile-width) {
     flex-direction: column;
+
 
     & li:first-child {
       padding-bottom: 40px;

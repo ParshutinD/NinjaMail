@@ -710,9 +710,9 @@ html::-webkit-scrollbar-track {
   padding-bottom: 75px; }
   @media (max-width: 360px) {
     .page-footer__inner-wrapper {
-      flex-direction: column;
-      flex-wrap: wrap;
-      max-height: 211px; } }
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr; } }
 
 .page-footer__copyright-list {
   display: flex;
